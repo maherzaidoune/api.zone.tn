@@ -1,0 +1,16 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://maher:maher1@ds121730.mlab.com:21730/covid",
+    "database": "covid",
+    "password": "maher1",
+    "name": "covid",
+    "user": "maher",
+    "connector": "mongodb"
+  },
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  }
+}

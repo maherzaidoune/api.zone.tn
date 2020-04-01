@@ -1,0 +1,36 @@
+{
+  "name": "zone",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lat": {
+      "type": "number",
+      "required": true
+    },
+    "long": {
+      "type": "number",
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "startAt": {
+      "type": "date",
+      "required": true
+    },
+    "endAt": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
