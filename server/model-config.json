@@ -46,15 +46,6 @@
   },
   "admin": {
     "dataSource": "db",
-    "public": true,
-    "options": {
-      "remoting": {
-        "sharedMethods": {
-          "*": false,
-          "login": true,
-          "logout": true
-        }
-      }
-    }
+    "public": true
   }
 }

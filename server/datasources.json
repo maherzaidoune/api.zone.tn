@@ -5,7 +5,7 @@
     "url": "mongodb://maher:maher1@ds121730.mlab.com:21730/covid",
     "database": "covid",
     "password": "maher1",
-    "name": "covid",
+    "name": "db",
     "user": "maher",
     "connector": "mongodb"
   },
