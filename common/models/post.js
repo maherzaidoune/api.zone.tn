@@ -6,7 +6,6 @@ module.exports = function(Post) {
     Post.disableRemoteMethodByName('updateAll');
     Post.disableRemoteMethodByName('prototype.updateAttributes');
 
-    Post.disableRemoteMethodByName('find');
     Post.disableRemoteMethodByName('findById');
     Post.disableRemoteMethodByName('findOne');
 
