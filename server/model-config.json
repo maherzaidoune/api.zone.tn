@@ -47,5 +47,13 @@
   "admin": {
     "dataSource": "db",
     "public": true
+  },
+  "content": {
+    "dataSource": "db",
+    "public": false
+  },
+  "post": {
+    "dataSource": "db",
+    "public": true
   }
 }

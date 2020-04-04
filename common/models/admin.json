@@ -12,6 +12,11 @@
       "type": "hasMany",
       "model": "zone",
       "foreignKey": ""
+    },
+    "posts": {
+      "type": "hasMany",
+      "model": "post",
+      "foreignKey": ""
     }
   },
   "acls": [
