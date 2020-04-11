@@ -55,5 +55,9 @@
   "post": {
     "dataSource": "db",
     "public": true
+  },
+  "ads": {
+    "dataSource": "db",
+    "public": true
   }
 }

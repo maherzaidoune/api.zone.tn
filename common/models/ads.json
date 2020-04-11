@@ -1,25 +1,23 @@
 {
-  "name": "post",
+  "name": "ads",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "content": {
-      "type": "string",
-      "required": true
-    },
-    "CreatedAt": {
-      "type": "date",
-      "required": true
+    "img": {
+      "type": "string"
     },
     "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "uri": {
       "type": "string",
       "required": true
-    },
-    "thumbnail": {
-      "type": "string"
     }
   },
   "validations": [],
